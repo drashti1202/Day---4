@@ -1,0 +1,122 @@
+
+/* Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f3ed;
+    color: #222;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #000000, #332509, #b8860b, #d4af37);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 0 5px 20px rgba(150, 110, 0, 0.25);
+}
+
+header h1 {
+    margin-bottom: 18px;
+}
+
+/* Navigation */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Main Content */
+main {
+    width: 80%;
+    margin: 35px auto;
+}
+
+/* Content Sections */
+.content, .contact {
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 28px;
+    border: 1px solid #e5d5a5;
+    border-radius: 25px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h2 {
+    color: #a67c00;
+    margin-bottom: 18px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 12px 0 7px;
+    font-weight: bold;
+    color: #8b6914;
+}
+
+input, textarea {
+    padding: 14px;
+    border: 1px solid #d4af37;
+    border-radius: 15px;
+    font-size: 15px;
+    outline: none;
+    background: #fffdf7;
+}
+
+input:focus, textarea:focus {
+    border-color: #b8860b;
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
+}
+
+/* Submit Button */
+button {
+    background: linear-gradient(135deg, #000000, #5c4510, #d4af37);
+    color: white;
+    padding: 14px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #d4af37, #000000);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(184, 134, 11, 0.35);
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #000000, #332509, #b8860b, #d4af37);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 35px 35px 0 0;
+}
